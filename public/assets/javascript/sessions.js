@@ -20,7 +20,7 @@ function ocultarElementos() {
 
 function ocultarEvaluaciones() {
     if (idUsuario === 0) return;
-    fetch('public/assets/javascript/data/usuarios.json')
+    fetch('assets/javascript/data/usuarios.json')
         .then((response) => response.json())
         .then((value) => {
             const ocultables = document.getElementsByClassName('hideable-membership');

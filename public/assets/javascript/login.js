@@ -19,7 +19,7 @@ function redireccionarA(src, params) {
 }
 
 function ingresoUsuario() {
-    fetch('public/assets/javascript/data/usuarios.json')
+    fetch('assets/javascript/data/usuarios.json')
         .then((response) => response.json())
         .then((value) => {
             const correoAct = document.getElementById('correo').value;

@@ -10,7 +10,7 @@ if (Object.keys(params2).indexOf('?id') !== -1) {
 }
 
 function llenarEspecialistas() {
-    fetch('public/assets/javascript/data/especialistas.json')
+    fetch('assets/javascript/data/especialistas.json')
         .then((response) => response.json())
         .then((value) => {
             const listaEsp = document.getElementById('listaEspecialistas');
@@ -32,7 +32,7 @@ function llenarEspecialistas() {
 }
 
 function llenarHorarios() {
-    fetch('public/assets/javascript/data/especialistas.json')
+    fetch('assets/javascript/data/especialistas.json')
         .then((response) => response.json())
         .then((value) => {
             const inputEsp = document.getElementById('especialista');
@@ -80,7 +80,7 @@ function redireccionarA(src, params) {
 }
 
 function llenarPacientes() {
-    fetch('public/assets/javascript/data/usuarios.json')
+    fetch('assets/javascript/data/usuarios.json')
         .then((response) => response.json())
         .then((value) => {
             const listaPac = document.getElementById('listaPacientes');

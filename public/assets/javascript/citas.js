@@ -11,7 +11,7 @@ if (Object.keys(params2).indexOf('?id') !== -1) {
 
 function llenarTablaCitas() {
     if (idUsuario === 0) return;
-    fetch('public/assets/javascript/data/citas.json')
+    fetch('assets/javascript/data/citas.json')
         .then((response) => response.json())
         .then((value) => {
             const tbody = document.getElementById('tbody');
