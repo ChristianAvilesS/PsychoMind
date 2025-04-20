@@ -2,14 +2,15 @@
     {
         "idUsuario": 1,
         "nombre": "Pedro Sanchez",
-        "username": "psanchez04@mail.com",
+        "correo": "psanchez04@mail.com",
+        "password": "12345",
         "tipoMembresia": "Gratuito",
         "esApoderado": false
     },
     {
         "idUsuario": 2,
         "nombre": "Rodrigo Herrera",
-        "username": "rherrera09@mail.com",
+        "correo": "rherrera09@mail.com",
         "password": "23456",
         "tipoMembresia": "Platino",
         "esApoderado": false
@@ -17,7 +18,7 @@
     {
         "idUsuario": 3,
         "nombre": "Mónica Rios",
-        "username": "mrios57@mail.com",
+        "correo": "mrios57@mail.com",
         "password": "34567",
         "tipoMembresia": "Platino",
         "esApoderado": true,
@@ -26,7 +27,7 @@
     {
         "idUsuario": 4,
         "nombre": "Juan Rodriguez",
-        "username": "jrodriguez79@mail.com",
+        "correo": "jrodriguez79@mail.com",
         "password": "45678",
         "tipoMembresia": "Golden",
         "esApoderado": true,
