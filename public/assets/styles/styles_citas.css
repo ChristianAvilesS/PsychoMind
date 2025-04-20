@@ -1,0 +1,47 @@
+div.container-flex {
+    width: 80%;
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly; /*
+    start: default (izquierda), flex-end: derecha, space-between: centrado pero con espacio entre elementos,
+    center: centrado, space-around: mismo que between pero con espacio a los costados, space-evenly: deja el mismo espacio en todas partes
+     */
+	align-items: center; /* flex-start: parte superior sin estirar, center: al centro, stretch: estirar, baseline: si los elementos tienen
+    diferente altura, se alínean a partir de una altura central de los textos */
+    align-content: center; /* alinea de manera vertical, mismo que align-items */
+}
+
+div.container {
+    width: 80%;
+    display: block;
+    padding: 10px;
+}
+
+button {
+    border: 0;
+    border-radius: 30px;
+    padding: 0.5em 1em;
+}
+
+a.boton-agendar {
+    font-size: 18px;
+}
+
+table {
+	caption-side: bottom;
+	border-collapse: separate;
+    border-spacing: 20px;
+    background: rgb(240, 252, 255);
+    border: 2px solid blue;
+    
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 1rem;
+	vertical-align: top;
+}
+
+td {
+    text-align: center;
+}

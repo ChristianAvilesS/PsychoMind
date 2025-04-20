@@ -2,7 +2,6 @@
     {
         "idEspecialista": 1,
         "nombre": "Pedro Porras",
-        "evaluacionesProporcionadas": ["Bienestar Psicológico universitario", "Bienestar Emocional"],
         "horarios": [
             {
                 "fecha": "21-04-2025",
@@ -46,6 +45,108 @@
             },
             {
                 "fecha": "23-04-2025",
+                "hora": "14:00 - 16:00",
+                "disponible": false
+            }
+        ]
+    },
+    {
+        "idEspecialista": 2,
+        "nombre": "Juan Pablo Torres",
+        "horarios": [
+            {
+                "fecha": "24-04-2025",
+                "hora": "10:00 - 12:00",
+                "disponible": true
+            },
+            {
+                "fecha": "24-04-2025",
+                "hora": "12:00 - 14:00",
+                "disponible": true
+            },
+            {
+                "fecha": "24-04-2025",
+                "hora": "14:00 - 16:00",
+                "disponible": true
+            },
+            {
+                "fecha": "25-04-2025",
+                "hora": "10:00 - 12:00",
+                "disponible": true
+            },
+            {
+                "fecha": "25-04-2025",
+                "hora": "12:00 - 14:00",
+                "disponible": false
+            },
+            {
+                "fecha": "25-04-2025",
+                "hora": "14:00 - 16:00",
+                "disponible": true
+            },
+            {
+                "fecha": "26-04-2025",
+                "hora": "10:00 - 12:00",
+                "disponible": true
+            },
+            {
+                "fecha": "26-04-2025",
+                "hora": "12:00 - 14:00",
+                "disponible": true
+            },
+            {
+                "fecha": "26-04-2025",
+                "hora": "14:00 - 16:00",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "idEspecialista": 3,
+        "nombre": "Silvia Espinoza",
+        "horarios": [
+            {
+                "fecha": "21-04-2025",
+                "hora": "10:00 - 12:00",
+                "disponible": false
+            },
+            {
+                "fecha": "21-04-2025",
+                "hora": "12:00 - 14:00",
+                "disponible": true
+            },
+            {
+                "fecha": "21-04-2025",
+                "hora": "14:00 - 16:00",
+                "disponible": true
+            },
+            {
+                "fecha": "22-04-2025",
+                "hora": "10:00 - 12:00",
+                "disponible": true
+            },
+            {
+                "fecha": "22-04-2025",
+                "hora": "12:00 - 14:00",
+                "disponible": true
+            },
+            {
+                "fecha": "22-04-2025",
+                "hora": "14:00 - 16:00",
+                "disponible": true
+            },
+            {
+                "fecha": "25-04-2025",
+                "hora": "10:00 - 12:00",
+                "disponible": true
+            },
+            {
+                "fecha": "25-04-2025",
+                "hora": "12:00 - 14:00",
+                "disponible": true
+            },
+            {
+                "fecha": "25-04-2025",
                 "hora": "14:00 - 16:00",
                 "disponible": true
             }

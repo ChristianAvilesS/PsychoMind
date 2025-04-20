@@ -2,32 +2,34 @@
     {
         "idUsuario": 1,
         "nombre": "Pedro Sanchez",
-        "username": "psanchez04",
+        "username": "psanchez04@mail.com",
         "tipoMembresia": "Gratuito",
         "esApoderado": false
     },
     {
-        "idUsuario": 1,
+        "idUsuario": 2,
         "nombre": "Rodrigo Herrera",
-        "username": "rherrera09",
+        "username": "rherrera09@mail.com",
         "password": "23456",
         "tipoMembresia": "Platino",
         "esApoderado": false
     },
     {
-        "idUsuario": 1,
+        "idUsuario": 3,
         "nombre": "Mónica Rios",
-        "username": "mrios57",
+        "username": "mrios57@mail.com",
         "password": "34567",
         "tipoMembresia": "Platino",
-        "esApoderado": true
+        "esApoderado": true,
+        "hijos": ["Raul Perez", "Romina Perez"]
     },
     {
-        "idUsuario": 1,
+        "idUsuario": 4,
         "nombre": "Juan Rodriguez",
-        "username": "jrodriguez79",
+        "username": "jrodriguez79@mail.com",
         "password": "45678",
         "tipoMembresia": "Golden",
-        "esApoderado": true
+        "esApoderado": true,
+        "hijos": ["Pepe Rodriguez", "Lucas Rodriguez"]
     }
 ]

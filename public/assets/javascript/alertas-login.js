@@ -4,27 +4,33 @@ const input_contraseña = document.getElementById('contraseña');
 
 const form = document.getElementById('form-login');
 form.addEventListener('submit', (e) => {
-    e.preventDefault();
-})
+	e.preventDefault();
+});
 
 function datosValidos() {
-    if (input_correo.value == "" ||
-        input_contraseña.value == "") {
-        alert("Todos los campos son obligatorios");
-        return false;
-    }
+	if (input_correo.value == '' || input_contraseña.value == '') {
+		alert('Todos los campos son obligatorios');
+		return false;
+	}
 
-    var emailRegExp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegExp.test(input_correo.value)) {
-        alert("Por favor, ingrese un correo electrónico válido");
-        return false;
-    }
+	var emailRegExp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+	if (!emailRegExp.test(input_correo.value)) {
+		alert('Por favor, ingrese un correo electrónico válido');
+		return false;
+	}
 
-    return true;
+	return true;
 }
 
 boton_login.addEventListener('click', () => {
-    if (datosValidos()) {
-        alert('Bienvenido');
-    }
-})
+	if (datosValidos()) {
+		alert('Bienvenido');
+		redireccionarA("index.html", "");
+	}
+});
+
+function redireccionarA(src, params) {
+	var anchor = document.createElement('a');
+	anchor.href = src + params;
+	anchor.click();
+}

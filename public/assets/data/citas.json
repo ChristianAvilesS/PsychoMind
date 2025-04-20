@@ -1,0 +1,34 @@
+[
+	{
+		"idCita": 1,
+        "idUsuario": 1,
+		"paciente": "Pedro Sanchez",
+		"especialista": "Pedro Porras",
+		"fecha": "23-04-2025",
+		"hora": "14:00 - 16:00"
+	},
+	{
+		"idCita": 2,
+        "idUsuario": 2,
+		"paciente": "Rodrigo Herrera",
+		"especialista": "Pedro Porras",
+		"fecha": "23-04-2025",
+		"hora": "12:00 - 14:00"
+	},
+	{
+		"idCita": 3,
+        "idUsuario": 3,
+		"paciente": "Raul Perez",
+		"especialista": "Juan Pablo Torres",
+		"fecha": "25-04-2025",
+		"hora": "12:00 - 14:00"
+	},
+	{
+		"idCita": 4,
+        "idUsuario": 4,
+		"paciente": "Lucas Rodriguez",
+		"especialista": "Silvia Espinoza",
+		"fecha": "21-04-2025",
+		"hora": "10:00 - 12:00"
+	}
+]
