@@ -53,6 +53,7 @@ function ocultarEvaluaciones() {
 }
 
 function agregarParametros() {
+    if (idUsuario === 0) return;
     var links = document.getElementsByClassName('var-link');
     for (var elem of links) {
         elem.href += '?id=' + params['?id'];
