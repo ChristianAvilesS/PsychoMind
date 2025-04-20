@@ -2,11 +2,18 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Psycho-Mind</title>
-        <link rel="stylesheet" href="assets/styles/styles-login.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300;500&display=swap"
+            rel="stylesheet" />
         <link rel="stylesheet" href="assets/styles/styles_header_footer.css" />
+        <link rel="stylesheet" href="assets/styles/styles_home.css" />
+        <link rel="stylesheet" href="assets/styles/contenidoEducativo.css"/>
         <script src="https://kit.fontawesome.com/829f2fe815.js" crossorigin="anonymous"></script>
+        <title>Psycho-Mind</title>
         <link rel="icon" href="favicon.ico" />
     </head>
 
@@ -20,7 +27,6 @@
                     <li><a href="membresias.html" class="var-link">Membresías</a></li>
                     <li><a href="evaluaciones.html" class="var-link">Evaluaciones</a></li>
                     <li><a href="citas.html" class="var-link">Citas</a></li>
-                    <li><a href="recomendaciones.html" class="var-link">Recomendaciones</a></li>
                     <li><a href="contenidoEducativo.html" class="var-link">Contenido Educativo</a></li>
                 </ul>
                 <a href="contacto.html" class="action_btn var-link">Contacto</a>
@@ -34,26 +40,60 @@
                 <li><a href="membresias.html" class="var-link">Membresías</a></li>
                 <li><a href="evaluaciones.html" class="var-link">Evaluaciones</a></li>
                 <li><a href="citas.html" class="var-link">Citas</a></li>
-                <li><a href="recomendaciones.html" class="var-link">Recomendaciones</a></li>
-                <li><a href="contenidoEducativo.html" class="var-link">Contenido Educativo</a></li>
-                <li><a href="contacto.html" class="action_btn var-link">Contacto</a></li>
+                <li><a href="contenidoEducativo.html" class="var-link">Citas</a></li>
+                <li><a href="contacto.html" class="action_btn var-link">Contenido Educativo</a></li>
             </div>
         </header>
+
         <main>
-            <div id="login-form">
-                <form method="get" action="index.html" id="form-login">
-                    <h2>¡Bienvenido a Psycho-Mind!</h2>
-                    <input id="correo" type="email" placeholder="Correo" />
-                    <input id="password" type="password" placeholder="Contraseña" />
-                    <div id="botones">
-                        <button id="boton-login" onclick="iniciarSesion()">Iniciar sesión</button>
-                        <div id="registro-link">
-                            <p>¿No tienes una cuenta?</p>
-                            <a href="registro.html">Registrate</a>
-                        </div>
-                    </div>
-                </form>
+          <div class="contenedor-principal">
+            <div class="videos">
+              <div class="video">
+                <iframe
+                  src="https://www.youtube.com/embed/sFfxExoU2Kw"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+                <p>Que es la salud mental?</p>
+              </div>
+              <div class="video">
+                <iframe
+                  src="https://www.youtube.com/embed/vm2z2GfoZ2k"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+                <p>La salud mental tambien es salud</p>
+              </div>
+              <div class="video">
+                <iframe
+                  src="https://www.youtube.com/embed/TjqrualxgkI"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+                <p>La neurociencia de las emociones</p>
+              </div>
             </div>
+
+            <!-- Sección de noticias (vertical) -->
+            <div class="noticias">
+              <div class="noticia-card">
+                <h3 class="noticia-titulo">Título de la Noticia</h3>
+                <img class="noticia-imagen" src="ruta-de-tu-imagen.jpg" alt="Imagen de la noticia">
+                <p class="noticia-descripcion">
+                  Esta es una breve descripción de la noticia para captar el interés del lector.
+                </p>
+                <button class="noticia-vermas">Ver más</button>
+              </div>
+              <button class="noticia">Noticia 1</button>
+              <button class="noticia">Noticia 2</button>
+              <button class="noticia">Noticia 3</button>
+            </div>
+          </div>
+
+
         </main>
     </body>
     <footer class="footer">
@@ -76,8 +116,8 @@
             <a href="#">TERMINOS Y CONDICIONES</a>
         </div>
     </footer>
+
     <!--JAVASCRIPT-->
     <script src="assets/javascript/header.js"></script>
-    <script src="assets/javascript/login.js"></script>
     <script src="assets/javascript/sessions.js"></script>
 </html>

@@ -11,6 +11,7 @@
             rel="stylesheet" />
         <link rel="stylesheet" href="assets/styles/styles_header_footer.css" />
         <link rel="stylesheet" href="assets/styles/styles_home.css" />
+        <link rel="stylesheet" href="assets/styles/contenidoEducativo.css"/>
         <script src="https://kit.fontawesome.com/829f2fe815.js" crossorigin="anonymous"></script>
         <title>Psycho-Mind</title>
         <link rel="icon" href="favicon.ico" />
@@ -26,7 +27,6 @@
                     <li><a href="membresias.html" class="var-link">Membresías</a></li>
                     <li><a href="evaluaciones.html" class="var-link">Evaluaciones</a></li>
                     <li><a href="citas.html" class="var-link">Citas</a></li>
-                    <li><a href="recomendaciones.html" class="var-link">Recomendaciones</a></li>
                     <li><a href="contenidoEducativo.html" class="var-link">Contenido Educativo</a></li>
                 </ul>
                 <a href="contacto.html" class="action_btn var-link">Contacto</a>
@@ -40,41 +40,67 @@
                 <li><a href="membresias.html" class="var-link">Membresías</a></li>
                 <li><a href="evaluaciones.html" class="var-link">Evaluaciones</a></li>
                 <li><a href="citas.html" class="var-link">Citas</a></li>
-                <li><a href="contenidoEducativo.html" class="var-link">Contenido Educativo</a></li>
-                <li><a href="recomendaciones.html" class="var-link">Recomendaciones</a></li>
-                <li><a href="contacto.html" class="action_btn var-link">Contacto</a></li>
+                <li><a href="contenidoEducativo.html" class="var-link">Citas</a></li>
+                <li><a href="contacto.html" class="action_btn var-link">Contenido Educativo</a></li>
             </div>
         </header>
 
         <main>
-            <h1>PSYCHO-MIND</h1>
-            <h2 id="welcome">
-                ¡Bienvenido a nuestro espacio de apoyo psicológico y bienestar emocional!
-            </h2>
-            <h3 id="lema">
-                Tu bienestar es nuestra prioridad, y estamos aquí para brindarte el apoyo que
-                necesitas en tu camino hacia la salud mental.
-            </h3>
-            <button class="hideable">
-                <a href="login.html">Iniciar sesión</a>
-            </button>
-            <h2 id="register" class="hideable">
-                ¿No tienes cuenta? Créate una
-                <a href="registro.html">aquí</a>
-            </h2>
-
-            <div class="descargas">
-                <h2>Descarga nuestra app</h2>
-                <div class="descargas-img">
-                    <img src="assets/images/descarga-ios.png" alt="App Store" />
-                    <img src="assets/images/descarga-android.png" alt="Google Play" />
-                </div>
+          <div class="contenedor-principal">
+            <div class="videos">
+              <div class="video">
+                <iframe
+                  src="https://www.youtube.com/embed/sFfxExoU2Kw"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+                <p>Que es la salud mental?</p>
+              </div>
+              <div class="video">
+                <iframe
+                  src="https://www.youtube.com/embed/vm2z2GfoZ2k"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+                <p>La salud mental tambien es salud</p>
+              </div>
+              <div class="video">
+                <iframe
+                  src="https://www.youtube.com/embed/TjqrualxgkI"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+                <p>La neurociencia de las emociones</p>
+              </div>
             </div>
 
-            <img id="img1" src="assets/images/imagen 1.png" alt="cerebert1" />
-            <img id="img2" src="assets/images/imagen 2.png" alt="cerebert2" />
-            <img id="img3" src="assets/images/imagen 3.png" alt="cerebert3" />
-            <img id="img4" src="assets/images/imagen 4.png" alt="cerebert4" />
+            <!-- Sección de noticias (vertical) -->
+            <div class="noticia">
+              <div className="service-type">
+                <div className="icon-container">
+                <img className="icon_img" src={music}/>
+                </div>
+                <div className="text-container">
+                        <div className="annual-title">
+                            <p className="annual1">Annual Plan</p>
+                        </div>
+                        <div className="annual-price">
+                            <p className="annual2">$59.99/year</p>
+                        </div>
+                    </div>
+                    <div className="button-container">
+                        <button className="change-button">Change</button>
+                    </div>
+              </div>
+              <button class="noticia">Noticia 2</button>
+              <button class="noticia">Noticia 3</button>
+            </div>
+          </div>
+
+
         </main>
     </body>
     <footer class="footer">

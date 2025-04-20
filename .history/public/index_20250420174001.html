@@ -2,11 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Psycho-Mind</title>
-        <link rel="stylesheet" href="assets/styles/styles-registro.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300;500&display=swap"
+            rel="stylesheet" />
         <link rel="stylesheet" href="assets/styles/styles_header_footer.css" />
+        <link rel="stylesheet" href="assets/styles/styles_home.css" />
         <script src="https://kit.fontawesome.com/829f2fe815.js" crossorigin="anonymous"></script>
+        <title>Psycho-Mind</title>
         <link rel="icon" href="favicon.ico" />
     </head>
 
@@ -20,7 +26,7 @@
                     <li><a href="membresias.html" class="var-link">Membresías</a></li>
                     <li><a href="evaluaciones.html" class="var-link">Evaluaciones</a></li>
                     <li><a href="citas.html" class="var-link">Citas</a></li>
-                    <li><a href="recomendaciones.html" class="var-link">Recomendaciones</a></li>
+                    <li><a href="contenidoEducativo.html" class="var-link">Contenido Educativo</a></li>
                 </ul>
                 <a href="contacto.html" class="action_btn var-link">Contacto</a>
                 <div class="toggle_btn">
@@ -33,32 +39,40 @@
                 <li><a href="membresias.html" class="var-link">Membresías</a></li>
                 <li><a href="evaluaciones.html" class="var-link">Evaluaciones</a></li>
                 <li><a href="citas.html" class="var-link">Citas</a></li>
-                <li><a href="recomendaciones.html" class="var-link">Recomendaciones</a></li>
+                <li><a href="contenidoEducativo.html" class="var-link">Contenido Educativo</a></li>
                 <li><a href="contacto.html" class="action_btn var-link">Contacto</a></li>
             </div>
         </header>
+
         <main>
-            <div id="registro-form">
-                <!--  <div id="div-img">
-                <img id="registro-img" src="../images/registro.jpg" alt="registro">
+            <h1>PSYCHO-MIND</h1>
+            <h2 id="welcome">
+                ¡Bienvenido a nuestro espacio de apoyo psicológico y bienestar emocional!
+            </h2>
+            <h3 id="lema">
+                Tu bienestar es nuestra prioridad, y estamos aquí para brindarte el apoyo que
+                necesitas en tu camino hacia la salud mental.
+            </h3>
+            <button class="hideable">
+                <a href="login.html">Iniciar sesión</a>
+            </button>
+            <h2 id="register" class="hideable">
+                ¿No tienes cuenta? Créate una
+                <a href="registro.html">aquí</a>
+            </h2>
+
+            <div class="descargas">
+                <h2>Descarga nuestra app</h2>
+                <div class="descargas-img">
+                    <img src="assets/images/descarga-ios.png" alt="App Store" />
+                    <img src="assets/images/descarga-android.png" alt="Google Play" />
+                </div>
             </div>
-            <div id="linea"></div> -->
-                <form action="" id="form-register">
-                    <h2>Crear una cuenta</h2>
-                    <input id="nombres" type="text" placeholder="Nombres" />
-                    <input id="apellidos" type="text" placeholder="Apellidos" />
-                    <input id="correo" type="email" placeholder="Correo" />
-                    <input id="contraseña" type="password" placeholder="Contraseña" />
-                    <input id="contraseña2" type="password" placeholder="Confirmar contraseña" />
-                    <div id="botones">
-                        <button id="boton-register">Confirmar</button>
-                        <div class="login-link">
-                            <p>¿Ya tienes una cuenta?</p>
-                            <a href="login.html">Inicia sesión</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
+
+            <img id="img1" src="assets/images/imagen 1.png" alt="cerebert1" />
+            <img id="img2" src="assets/images/imagen 2.png" alt="cerebert2" />
+            <img id="img3" src="assets/images/imagen 3.png" alt="cerebert3" />
+            <img id="img4" src="assets/images/imagen 4.png" alt="cerebert4" />
         </main>
     </body>
     <footer class="footer">
@@ -81,8 +95,8 @@
             <a href="#">TERMINOS Y CONDICIONES</a>
         </div>
     </footer>
+
     <!--JAVASCRIPT-->
     <script src="assets/javascript/header.js"></script>
-    <script src="assets/javascript/alertas-register.js"></script>
     <script src="assets/javascript/sessions.js"></script>
 </html>
