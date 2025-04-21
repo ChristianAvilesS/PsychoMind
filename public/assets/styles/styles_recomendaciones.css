@@ -5,7 +5,7 @@
   padding-left: 80px;
   padding-top: 30px;
   padding-right: 80px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .box1 , .box2, .box3, .box4, .box5, .box6{
@@ -54,3 +54,9 @@ button:hover {
   background-color: #214e50;
 }
 
+.contenedor-boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}

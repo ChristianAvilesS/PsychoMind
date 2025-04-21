@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="assets/styles/styles_home.css" />
         <link rel="stylesheet" href="assets/styles/contenidoEducativo.css" />
         <script src="https://kit.fontawesome.com/829f2fe815.js" crossorigin="anonymous"></script>
-        <title>Psycho-Mind</title>
+        <title>Recursos</title>
         <link rel="icon" href="favicon.ico" />
     </head>
 
@@ -29,9 +29,8 @@
                     <li><a href="citas.html" class="var-link">Citas</a></li>
                     <li><a href="recomendaciones.html" class="var-link">Recomendaciones</a></li>
                     <li>
-                        <a href="contenidoEducativo.html" class="var-link">Contenido Educativo</a>
+                        <a href="contenidoEducativo.html" class="var-link">Recursos</a>
                     </li>
-                    <li><a href="recursos.html" class="var-link">Recursos</a></li>
                 </ul>
                 <a href="contacto.html" class="action_btn var-link">Contacto</a>
                 <div class="toggle_btn">
@@ -52,7 +51,7 @@
 
         <main>
             <div class="contenedor-principal">
-                <div class="videos">
+                <div class="videos flex-container-row">
                     <div class="video">
                         <iframe
                             src="https://www.youtube.com/embed/sFfxExoU2Kw"
@@ -83,7 +82,7 @@
                 </div>
 
                 <!-- Sección de noticias (vertical) -->
-                <div class="noticias">
+                <div class="noticias flex-container-row">
                     <div class="noticia-card">
                         <img
                             class="noticia-imagen"
@@ -148,10 +147,58 @@
                         </p>
                         <button class="noticia-vermas">Ver más</button>
                     </div>
+
+                    <div class="noticia-card">
+                        <img
+                            class="noticia-imagen"
+                            src="assets/images/trastorno-obsesivo-compulsivo.jpg"
+                            alt="TC" />
+                        <h3 class="noticia-titulo">Qué es el Trastorno Obsesivo Compulsivo?</h3>
+                        <p class="noticia-descripcion">
+                            El trastorno obsesivo-compulsivo (TOC) es un trastorno de salud mental
+                            caracterizado por pensamientos repetitivos no deseados (obsesiones) y
+                            comportamientos compulsivos que la persona siente la necesidad de
+                            realizar para reducir la ansiedad que esos pensamientos le provocan.
+                        </p>
+                        <button class="noticia-vermas" onclick="descargarPDF()">Descargar</button>
+                    </div>
+
+                    <div class="noticia-card">
+                        <img
+                            class="imagen-diferente"
+                            src="assets/images/depresionMayor.jpeg"
+                            alt="Imagen DEPMAY" />
+                        <h3 class="noticia-titulo">Depresión Mayor: Síntomas</h3>
+                        <ul class="noticia-descripcion lista">
+                            <li>
+                                Sentimientos de tristeza, vacío, desesperanza, culpa, o inutilidad
+                            </li>
+                            <li>Anhedonia</li>
+                            <li>Enlentecimiento y ganas de llorar</li>
+                            <li>Pérdida de placer o interés en actividades usuales</li>
+                        </ul>
+                        <button class="noticia-vermas" onclick="descargarPDF2()">Descargar</button>
+                    </div>
+
+                    <div class="noticia-card">
+                        <img
+                            class="noticia-imagen"
+                            src="assets/images/tea.jpeg"
+                                alt="Imagen TEA" />
+                        <h3 class="noticia-titulo">Transtorno del Espectro Autista</h3>
+                        <p class="noticia-descripcion">
+                            Los trastornos del espectro autista (TEA) son trastornos del
+                                neurodesarrollo caracterizados por la presencia de dificultades en
+                                la comunicación e interacción social y patrones restrictivos y
+                                repetitivos de comportamiento, intereses o actividades.
+                        </p>
+                        <button class="noticia-vermas" onclick="descargarPDF3()">Descargar</button>
+                    </div>
                 </div>
             </div>
         </main>
     </body>
+
     <footer class="footer">
         <div id="redes">
             <a href="#">
@@ -176,4 +223,7 @@
     <!--JAVASCRIPT-->
     <script src="assets/javascript/header.js"></script>
     <script src="assets/javascript/sessions.js"></script>
+    <script src="assets/javascript/descargar.js"></script>
+    <script src="assets/javascript/descargar2.js"></script>
+    <script src="assets/javascript/descargar3.js"></script>
 </html>
