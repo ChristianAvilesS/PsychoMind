@@ -4,8 +4,8 @@
 
 ## Team Members
 
-Christian Eduardo Avilés Sánchez
-Ariana Ivonne Campos Trinidad
-Diego Uribe Osores
-Luz Caridad Amaru Chamba
-Fabrizio Sebastian Aguilar Lezama
+- Christian Eduardo Avilés Sánchez
+- Ariana Ivonne Campos Trinidad
+- Diego Uribe Osores
+- Luz Caridad Amaru Chamba
+- Fabrizio Sebastian Aguilar Lezama
