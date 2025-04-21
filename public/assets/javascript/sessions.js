@@ -16,6 +16,13 @@ function ocultarElementos() {
             elem.hidden = true;
         }
     }
+
+    const ocultables2 = document.getElementsByClassName('hideable-nolog');
+    for (var elem of ocultables2) {
+        if (idUsuario === 0) {
+            elem.hidden = true;
+        }
+    }
 }
 
 function ocultarEvaluaciones() {
