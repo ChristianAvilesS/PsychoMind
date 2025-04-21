@@ -4,8 +4,8 @@
 
 ## Team Members
 
-- Piero Delgado Corrales
-- Sebastian Paredes Puente
-- Diego Uribe Osores
-- Oliver Gonzales Cáceres
-- Gianfranco Durand Vera
+Christian Eduardo Avilés Sánchez
+Ariana Ivonne Campos Trinidad
+Diego Uribe Osores
+Luz Caridad Amaru Chamba
+Fabrizio Sebastian Aguilar Lezama
